@@ -4,6 +4,8 @@
 
 CivicNotice QA helps public employees identify unclear, incomplete, and internally inconsistent notices before they reach residents. It combines deterministic checks with an optional GPT-5.6 review to produce evidence-backed findings, a plain-language revision, and a documented human-review step.
 
+**Live demonstration:** [civicnotice-qa.rmzgerardo-1988.chatgpt.site](https://civicnotice-qa.rmzgerardo-1988.chatgpt.site)
+
 ## Build Week pitch
 
 Government notices often carry consequential information, but quality-control teams must review dates, explanations, procedural instructions, and readability under tight deadlines. CivicNotice QA turns that review into a focused casework desk without turning AI into the decision-maker.
@@ -58,6 +60,8 @@ OPENAI_API_KEY=your_project_key
 ```
 
 Do not expose the key to browser code or commit it to the repository.
+
+The checked-in `.openai/hosting.json` contains a public placeholder rather than the private deployment identifier. Replace `YOUR_SITES_PROJECT_ID` only when connecting your own Sites project.
 
 ## Verification
 
